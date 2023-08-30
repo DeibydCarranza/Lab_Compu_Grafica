@@ -133,7 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main_P1.cpp" />
+    <ClCompile Include="318048857_REPORTE1_GPO6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\core.frag" />
