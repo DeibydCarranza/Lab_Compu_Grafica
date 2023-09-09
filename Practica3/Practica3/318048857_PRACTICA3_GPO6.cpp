@@ -206,7 +206,7 @@ int main() {
 			model = glm::mat4(1); //Se establece a 1 toda la matriz ->clean
 
 			//Cola
-			model = glm::translate(model, glm::vec3(0.97f, 0.55f, 0.0f));
+			model = glm::translate(model, glm::vec3(0.9f, 0.616f, 0.0f));
 			model = glm::scale(model, glm::vec3(0.18f, 0.23f, 0.3f));
 			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));
 			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -231,17 +231,17 @@ int main() {
 			model = glm::mat4(1);
 
 			//Oreja izquierda
-			model = glm::translate(model, glm::vec3(-0.65f, 1.65f, 0.25f));
-			model = glm::rotate(model, glm::radians(-45.0f), glm::vec3(0.0f, 0.0f, 1.0f)); //Se consideró primero la rotación
-			model = glm::scale(model, glm::vec3(0.1f, 0.6f, 0.1f));
+			model = glm::translate(model, glm::vec3(-0.6f, 1.65f, 0.25f));
+			model = glm::rotate(model, glm::radians(-50.0f), glm::vec3(0.0f, 0.0f, 1.0f)); //Se consideró primero la rotación
+			model = glm::scale(model, glm::vec3(0.15f, 0.7f, 0.15f));
 			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 			glDrawArrays(GL_TRIANGLES, 0, 36);
 			model = glm::mat4(1);
 
 			//Oreja derecha
-			model = glm::translate(model, glm::vec3(-0.65f, 1.65f, -0.25f));
-			model = glm::rotate(model, glm::radians(-45.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-			model = glm::scale(model, glm::vec3(0.1f, 0.6f, 0.1f));
+			model = glm::translate(model, glm::vec3(-0.6f, 1.65f, -0.25f));
+			model = glm::rotate(model, glm::radians(-50.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+			model = glm::scale(model, glm::vec3(0.15f, 0.7f, 0.15f));
 			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 			glDrawArrays(GL_TRIANGLES, 0, 36);
 			model = glm::mat4(1);
@@ -336,21 +336,21 @@ int main() {
 	 if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)  //GLFW_RELEASE
 		 glfwSetWindowShouldClose(window, true);
 	 if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-		 movX += 0.5f;
+		 movX += 0.005f;
 	 if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-		 movX -= 0.5f;
+		 movX -= 0.005f;
 	 if (glfwGetKey(window, GLFW_KEY_PAGE_UP) == GLFW_PRESS)
-		 movY += 0.5f;
+		 movY += 0.005f;
 	 if (glfwGetKey(window, GLFW_KEY_PAGE_DOWN) == GLFW_PRESS)
-		 movY -= 0.5f;
+		 movY -= 0.005f;
 	 if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-		 movZ -= 0.5f;
+		 movZ -= 0.005f;
 	 if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-		 movZ += 0.5f;
+		 movZ += 0.005f;
 	 if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
-		 rot += 0.5f;
+		 rot += 0.05f;
 	 if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
-		 rot -= 0.5f;
+		 rot -= 0.05f;
 
  }
 
