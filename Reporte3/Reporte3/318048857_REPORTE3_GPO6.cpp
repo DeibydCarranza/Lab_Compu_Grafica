@@ -567,6 +567,46 @@ int main() {
 				glDrawArrays(GL_TRIANGLES, 72, 36);
 				model = glm::mat4(1);
 
+			/*      BRAZOS  */
+				//Hombros
+				model = glm::translate(model, glm::vec3(1.325f, 1.5f, 0.0f));
+				model = glm::scale(model, glm::vec3(0.15f, 0.6f, 0.6f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 0, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-1.325f, 1.5f, 0.0f));
+				model = glm::scale(model, glm::vec3(0.15f, 0.6f, 0.6f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 0, 36);
+				model = glm::mat4(1);
+
+				//Brazos
+				model = glm::translate(model, glm::vec3(-1.7f, 0.95f, 0.0f));
+				model = glm::scale(model, glm::vec3(0.6f, 1.5f, 0.6f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 0, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(1.7f, 0.95f, 0.0f));
+				model = glm::scale(model, glm::vec3(0.6f, 1.5f, 0.6f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 0, 36);
+				model = glm::mat4(1);
+
+				//Muñecas
+				model = glm::translate(model, glm::vec3(1.7f, 0.1f, 0.0f));
+				model = glm::scale(model, glm::vec3(0.6f, 0.2f, 0.6f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 108, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-1.7f, 0.1f, 0.0f));
+				model = glm::scale(model, glm::vec3(0.6f, 0.2f, 0.6f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 108, 36);
+				model = glm::mat4(1);
+
 		glBindVertexArray(0);
 
 
