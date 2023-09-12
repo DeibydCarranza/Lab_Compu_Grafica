@@ -462,53 +462,53 @@ int main() {
 		//0-AzM, 36-Dor, 72-Nar, 108-AzC, 144-Neg, 180-NarAz
 		glBindVertexArray(VAO);
 
-			// ----- CUERPO -----
+		{// ----- CUERPO -----
 				//Torso naranja azul
-				model = glm::translate(model, glm::vec3(0.0f, 1.0f, 0.0f));
-				model = glm::scale(model, glm::vec3(0.6f, 3.0f, 0.9f));
-				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-				glDrawArrays(GL_TRIANGLES, 180, 36);
-				model = glm::mat4(1); 
+			model = glm::translate(model, glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.6f, 3.0f, 0.9f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 180, 36);
+			model = glm::mat4(1);
 
-				//Torso laterales azul
-				model = glm::translate(model, glm::vec3(0.65f, 1.25f, 0.0f));
-				model = glm::scale(model, glm::vec3(0.7f, 2.5f, 0.9f));
-				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-				glDrawArrays(GL_TRIANGLES, 216, 36);
-				model = glm::mat4(1);
+			//Torso laterales azul
+			model = glm::translate(model, glm::vec3(0.65f, 1.25f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.7f, 2.5f, 0.9f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 216, 36);
+			model = glm::mat4(1);
 
-				model = glm::translate(model, glm::vec3(-0.65f, 1.25f, 0.0f));
-				model = glm::scale(model, glm::vec3(0.7f, 2.5f, 0.9f));
-				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-				glDrawArrays(GL_TRIANGLES, 216, 36);
-				model = glm::mat4(1);
+			model = glm::translate(model, glm::vec3(-0.65f, 1.25f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.7f, 2.5f, 0.9f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 216, 36);
+			model = glm::mat4(1);
 
-				//Hombros
-				model = glm::translate(model, glm::vec3(-1.125f, 1.15f, 0.0f));
-				model = glm::scale(model, glm::vec3(0.25f, 1.3f, 0.9f));
-				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-				glDrawArrays(GL_TRIANGLES, 216, 36);
-				model = glm::mat4(1);
+			//Hombros
+			model = glm::translate(model, glm::vec3(-1.125f, 1.15f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.25f, 1.3f, 0.9f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 216, 36);
+			model = glm::mat4(1);
 
-				model = glm::translate(model, glm::vec3(1.125f, 1.15f, 0.0f));
-				model = glm::scale(model, glm::vec3(0.25f, 1.3f, 0.9f));
-				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-				glDrawArrays(GL_TRIANGLES, 216, 36);
-				model = glm::mat4(1);
+			model = glm::translate(model, glm::vec3(1.125f, 1.15f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.25f, 1.3f, 0.9f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 216, 36);
+			model = glm::mat4(1);
 
-				//Cadera
-				model = glm::translate(model, glm::vec3(-0.4f, -0.25f, 0.0f));
-				model = glm::scale(model, glm::vec3(0.2f, 0.5f, 0.9f));
-				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-				glDrawArrays(GL_TRIANGLES, 216, 36);
-				model = glm::mat4(1);
+			//Cadera
+			model = glm::translate(model, glm::vec3(-0.4f, -0.25f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.2f, 0.5f, 0.9f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 216, 36);
+			model = glm::mat4(1);
 
-				model = glm::translate(model, glm::vec3(0.4f, -0.25f, 0.0f));
-				model = glm::scale(model, glm::vec3(0.2f, 0.5f, 0.9f));
-				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-				glDrawArrays(GL_TRIANGLES, 216, 36);
-				model = glm::mat4(1);
-
+			model = glm::translate(model, glm::vec3(0.4f, -0.25f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.2f, 0.5f, 0.9f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 216, 36);
+			model = glm::mat4(1);
+		}
 
 			// ----- CABEZA -----
 				//Orejas largas
@@ -778,6 +778,144 @@ int main() {
 				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 				glDrawArrays(GL_TRIANGLES, 144, 36);
 				model = glm::mat4(1);
+
+			/* Cara */
+				//Boca
+				model = glm::translate(model, glm::vec3(0.0f, 0.8f, 0.46f));
+				model = glm::scale(model, glm::vec3(0.6f, 0.6f, 0.05f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 144, 36);
+				model = glm::mat4(1);
+
+				//Labios
+				model = glm::translate(model, glm::vec3(0.4f, 0.8f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.2f, 1.0f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 108, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-0.4f, 0.8f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.2f, 1.0f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 108, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(0.0f, 1.2f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.6f, 0.2f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 108, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(0.0f, 0.4f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.6f, 0.2f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 108, 36);
+				model = glm::mat4(1);
+
+				//Dientes
+				model = glm::translate(model, glm::vec3(0.2f, 0.6f, 0.5f));
+				model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.1f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-0.2f, 0.6f, 0.5f));
+				model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.1f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(0.2f, 1.0f, 0.5f));
+				model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.1f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-0.2f, 1.0f, 0.5f));
+				model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.1f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+			/* OJOS*/
+				//Parpado
+				model = glm::translate(model, glm::vec3(-0.45f, 1.475f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.5f, 0.15f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 72, 36);
+				model = glm::mat4(1);
+				
+				model = glm::translate(model, glm::vec3( 0.45f, 1.475f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.5f, 0.15f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 72, 36);
+				model = glm::mat4(1);
+
+				//Corneas inferior amarilla
+				model = glm::translate(model, glm::vec3(0.45f, 1.625f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.5f, 0.15f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-0.45f, 1.625f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.5f, 0.15f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				//Corneas lateral izquierda amarilla
+				model = glm::translate(model, glm::vec3(-0.29f, 1.925f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.18f, 0.45f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(0.29f, 1.925f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.18f, 0.45f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				//Corneas lateral derecha amarilla
+				model = glm::translate(model, glm::vec3(-0.61f, 1.925f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.18f, 0.45f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(0.61f, 1.925f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.18f, 0.45f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 36, 36);
+				model = glm::mat4(1);
+
+				//Pupilas negras
+				model = glm::translate(model, glm::vec3(0.45f, 1.925f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.14f, 0.45f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 144, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-0.45f, 1.925f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.14f, 0.45f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 144, 36);
+				model = glm::mat4(1);
+
+				//Cejas
+				model = glm::translate(model, glm::vec3(0.45f, 2.225f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.5f, 0.15f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 144, 36);
+				model = glm::mat4(1);
+
+				model = glm::translate(model, glm::vec3(-0.45f, 2.225f, 0.555f));
+				model = glm::scale(model, glm::vec3(0.5f, 0.15f, 0.2f));
+				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+				glDrawArrays(GL_TRIANGLES, 144, 36);
+				model = glm::mat4(1);
+
 		glBindVertexArray(0);
 
 
