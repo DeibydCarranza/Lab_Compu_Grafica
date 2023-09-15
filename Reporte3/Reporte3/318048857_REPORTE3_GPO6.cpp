@@ -462,7 +462,7 @@ int main() {
 		//0-AzM, 36-Dor, 72-Nar, 108-AzC, 144-Neg, 180-NarAz
 		glBindVertexArray(VAO);
 
-		{// ----- CUERPO -----
+		// ----- CUERPO -----
 				//Torso naranja azul
 			model = glm::translate(model, glm::vec3(0.0f, 1.0f, 0.0f));
 			model = glm::scale(model, glm::vec3(0.6f, 3.0f, 0.9f));
@@ -508,7 +508,7 @@ int main() {
 			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 			glDrawArrays(GL_TRIANGLES, 216, 36);
 			model = glm::mat4(1);
-		}
+		
 
 			// ----- CABEZA -----
 				//Orejas largas
@@ -611,13 +611,13 @@ int main() {
 
 			/*      BRAZOS  */
 				//Hombros
-				model = glm::translate(model, glm::vec3(1.325f, 1.5f, 0.0f));
+				model = glm::translate(model, glm::vec3(1.325f, 1.4f, 0.0f));
 				model = glm::scale(model, glm::vec3(0.15f, 0.6f, 0.6f));
 				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 				glDrawArrays(GL_TRIANGLES, 0, 36);
 				model = glm::mat4(1);
 
-				model = glm::translate(model, glm::vec3(-1.325f, 1.5f, 0.0f));
+				model = glm::translate(model, glm::vec3(-1.325f, 1.4f, 0.0f));
 				model = glm::scale(model, glm::vec3(0.15f, 0.6f, 0.6f));
 				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 				glDrawArrays(GL_TRIANGLES, 0, 36);
@@ -915,6 +915,76 @@ int main() {
 				glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 				glDrawArrays(GL_TRIANGLES, 144, 36);
 				model = glm::mat4(1);
+
+			/*VISTA LATERAL*/
+			
+			//Cola superior
+			model = glm::translate(model, glm::vec3(0.0f, 0.25f, -0.675f));
+			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.45f, 0.5f, 0.5f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 0, 36);
+			model = glm::mat4(1);
+
+			//Cola vertical
+			model = glm::translate(model, glm::vec3(0.0f, -0.3f, -1.1f));
+			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.4f, 1.6f, 0.5f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 0, 36);
+			model = glm::mat4(1);
+
+			//Cola inferior
+			model = glm::translate(model, glm::vec3(0.0f, -0.95f, -1.7f));
+			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.8f, 0.3f, 0.5f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 0, 36);
+			model = glm::mat4(1);
+
+			/* PINCHOS */
+
+			//Pinchos ola inferior
+			model = glm::translate(model, glm::vec3(0.0f, -0.6f, -1.6f));
+			model = glm::scale(model, glm::vec3(0.2f, 0.4f, 0.2f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 144, 36);
+			model = glm::mat4(1);
+
+			model = glm::translate(model, glm::vec3(0.0f, -0.65f, -1.9f));
+			model = glm::scale(model, glm::vec3(0.2f, 0.3f, 0.2f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 144, 36);
+			model = glm::mat4(1);
+
+			//Pinchos espalda del más alto al menor
+			model = glm::translate(model, glm::vec3(0.0f, 2.3f, -0.65f));
+			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.4f, 0.2f, 0.2f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 144, 36);
+			model = glm::mat4(1);
+
+			model = glm::translate(model, glm::vec3(0.0f, 1.9f, -0.775f));
+			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.65f, 0.2f, 0.2f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 144, 36);
+			model = glm::mat4(1);
+
+			model = glm::translate(model, glm::vec3(0.0f, 1.5f, -0.625f));
+			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.35f, 0.2f, 0.2f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 144, 36);
+			model = glm::mat4(1);
+
+			model = glm::translate(model, glm::vec3(0.0f, 1.1f, -0.725f));
+			model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(0.55f, 0.2f, 0.2f));
+			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+			glDrawArrays(GL_TRIANGLES, 144, 36);
+			model = glm::mat4(1);
 
 		glBindVertexArray(0);
 
