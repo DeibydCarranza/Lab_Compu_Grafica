@@ -357,13 +357,13 @@ void Inputs(GLFWwindow* window) {
 		muneca += 0.07f;
 	if (glfwGetKey(window, GLFW_KEY_H) == GLFW_PRESS && muneca > -90.0f)
 		 muneca -= 0.07f;
-	 if (glfwGetKey(window, GLFW_KEY_U) == GLFW_PRESS && dedo1 < 20.0f)
+	 if (glfwGetKey(window, GLFW_KEY_U) == GLFW_PRESS && dedo1 < 90.0f)
 		 dedo1 += 0.07f;
 	 if (glfwGetKey(window, GLFW_KEY_J) == GLFW_PRESS && dedo1 > -70.0f )
 		 dedo1 -= 0.07f;
 	 if (glfwGetKey(window, GLFW_KEY_I) == GLFW_PRESS && dedo2 < 0.0f)
 		 dedo2 += 0.07f;
-	 if (glfwGetKey(window, GLFW_KEY_K) == GLFW_PRESS && dedo2 > -91.0)
+	 if (glfwGetKey(window, GLFW_KEY_K) == GLFW_PRESS && dedo2 > -100.0)
 		 dedo2 -= 0.07f;
  }
 
