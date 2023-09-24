@@ -1,0 +1,313 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd balnco.jpg
+Ni 1.00
+newmtl lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd balnco.jpg
+Ni 1.00
+newmtl lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl pasted__lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert4SG
+illum 4
+Kd 0.67 0.67 0.67
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert10SG
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert15SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dorado.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert41SG
+illum 4
+Kd 0.03 0.03 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert42SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert43SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert44SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert45SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert46SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert47SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd balnco.jpg
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert48SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert49SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:lambert51SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dorado.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:new_sword_13_copyy:lambert17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:new_sword_13_copyy:lambert18SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:new_sword_13_copyy:lambert19SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dorado.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render:new_sword_13_copyy:lambert20SG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert4SG
+illum 4
+Kd 0.67 0.67 0.67
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert10SG
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert15SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dorado.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert41SG
+illum 4
+Kd 0.03 0.03 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert42SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert43SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert44SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert45SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert46SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert47SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd balnco.jpg
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert48SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert49SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:lambert51SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dorado.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:new_sword_13_copyy:lambert17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:new_sword_13_copyy:lambert18SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_c.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:new_sword_13_copyy:lambert19SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dorado.png
+Ni 1.00
+newmtl uploads_files_1978627_movie_set_35_arnold_render1:new_sword_13_copyy:lambert20SG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
