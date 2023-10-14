@@ -221,8 +221,8 @@ int main()
 
 
         // Set lights properties
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.ambient"), 0.1f, 0.1f, 0.1f);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.diffuse"), 0.1f, 0.1f, 0.1f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.ambient"), 0.5f, 0.5f, 0.5f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.diffuse"), 0.5f, 0.5f, 0.5f);
         glUniform3f(glGetUniformLocation(lightingShader.Program, "light.specular"), 1.0f, 1.0f, 1.0f);
 
 
@@ -258,15 +258,14 @@ int main()
         model = glm::mat4(1);
         centro.Draw(lightingShader);
 
-
         //Segunda pokebola
-        model = glm::mat4(1);
-        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        glBindVertexArray(VAO);
-
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 0.0f, 0.0f, 1.0f);
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 1.0f, 1.0f, 1.0f);
         glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 20.0f);
+
+        model = glm::mat4(1);
+        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        glBindVertexArray(VAO);
         pokearriba.Draw(lightingShader);
 
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 1.0f);
@@ -282,13 +281,15 @@ int main()
         centro.Draw(lightingShader);
 
         //Tercera pokebola
+
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 0.0f, 1.0f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 0.5117f, 1.0f, 0.0f);
+        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 40.0f);
+
         model = glm::mat4(1);
         model = glm::translate(model, glm::vec3(3.0f, 0.0f, 0.0f));
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 0.0f, 1.0f);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 0.5117f, 1.0f, 0.0f);
-        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 40.0f);
         pokearriba.Draw(lightingShader);
 
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 1.0f);
@@ -304,13 +305,15 @@ int main()
         centro.Draw(lightingShader);
 
         //Cuarta pokebola
+
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 0.0f, 1.0f, 1.0f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 1.0f, 0.0f, 1.0f);
+        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 60.0f);
+
         model = glm::mat4(1);
         model = glm::translate(model, glm::vec3(-3.0f, -3.0f, 0.0f));
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 0.0f, 1.0f, 1.0f);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 1.0f, 0.0f, 1.0f);
-        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 60.0f);
         pokearriba.Draw(lightingShader);
 
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 1.0f);
@@ -326,14 +329,15 @@ int main()
         centro.Draw(lightingShader);
 
         //Quinta pokebola
-        //255 255 00 
+
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 0.0f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 0.0f, 1.0f, 0.0f);
+        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 80.0f);
+
         model = glm::mat4(1);
         model = glm::translate(model, glm::vec3(0.0f, -3.0f, 0.0f));
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 0.0f);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 0.0f, 1.0f, 0.0f);
-        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 80.0f);
         pokearriba.Draw(lightingShader);
 
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 1.0f);
@@ -349,14 +353,14 @@ int main()
         centro.Draw(lightingShader);
 
         //Sexta pokebola
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 0.0f, 0.0f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 0.0f, 0.0f, 0.0f);
+        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 1.0f);
+
         model = glm::mat4(1);
         model = glm::translate(model, glm::vec3(3.0f, -3.0f, 0.0f));
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
-
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 0.0f, 0.0f);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 0.0f, 1.0f, 1.0f);
-        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 0.0f);
         pokearriba.Draw(lightingShader);
 
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 1.0f);
