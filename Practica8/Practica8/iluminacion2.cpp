@@ -53,7 +53,7 @@ glm::vec3 pointLightPositions[] = {
 
 //Position of the spotLight
 glm::vec3 spotLightPosition = glm::vec3(4.0f, 2.0f, -4.0f);
-glm::vec3 spotLightDirection = glm::vec3(0.0f, -2.0f, 0.0f);
+glm::vec3 spotLightDirection = glm::vec3(0.0f, -1.0f, 0.0f);
 
 
 float vertices[] = {
@@ -414,7 +414,6 @@ int main()
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 		
 		glBindVertexArray(0);
-
 
 
 		// Swap the screen buffers
