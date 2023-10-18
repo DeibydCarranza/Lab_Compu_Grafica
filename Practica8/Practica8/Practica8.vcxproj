@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="iluminacion2.cpp" />
+    <ClCompile Include="318048857_PRACTICA8_GPO6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\lamp.frag" />
