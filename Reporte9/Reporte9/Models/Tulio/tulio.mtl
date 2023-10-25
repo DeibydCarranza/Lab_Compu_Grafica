@@ -1,0 +1,83 @@
+newmtl tulio1:lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd CAMISA_COLOR.jpeg
+Ni 1.00
+newmtl tulio1:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd CORBATA_COLOR.jpeg
+Ni 1.00
+newmtl tulio1:lambert7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd MANOS_COLOR.jpeg
+Ni 1.00
+newmtl tulio1:lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd MANOS_COLOR.jpeg
+Ni 1.00
+newmtl tulio1:lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd SUSPENSORES.jpeg
+Ni 1.00
+newmtl tulio1:lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd SUSPENSORES.jpeg
+Ni 1.00
+newmtl tulio1:lambert11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd CABEZA_COLOR_OK.jpeg
+Ni 1.00
+newmtl tulio1:lambert13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd PANTALONES_Y_ZAPATOS.jpeg
+Ni 1.00
+newmtl tulio1:lambert14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd PANTALONES_Y_ZAPATOS.jpeg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl tulio1:lambert15SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd PANTALONES_Y_ZAPATOS.jpeg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl tulio1:lambert17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd OJOS_COLOR.jpeg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
